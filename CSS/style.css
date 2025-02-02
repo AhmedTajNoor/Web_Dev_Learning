@@ -1,0 +1,21 @@
+/*Universal Selector*/
+*{
+    color: aqua;
+    font: 70;
+}
+
+/* ID selector */
+#my-id{
+    color: goldenrod;
+    font-weight:900;
+}
+/*Class seclector*/
+.my-text-style{
+    color: orange;
+    font: 70;
+}
+/*Group selection*/
+h1,h2,p{
+    color: yellow;
+    font: 70;
+}
