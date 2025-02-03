@@ -1,3 +1,16 @@
+body{
+    background-color: aqua;
+    background-image: url(vecteezy_ai-generated-empty-wooden-table-on-the-natural-background_40890255.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    border-style: groove;
+}
+
 /*Universal Selector*/
 *{
     color: aqua;
@@ -6,16 +19,27 @@
 
 /* ID selector */
 #my-id{
+    border-style: double;
     color: goldenrod;
     font-weight:900;
 }
 /*Class seclector*/
 .my-text-style{
+    border-style: inset;
     color: orange;
     font: 70;
 }
-/*Group selection*/
+/*Group selection
 h1,h2,p{
+    border-style: ridge;
     color: yellow;
     font: 70;
+}
+    */
+.my-div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 10px 10px 10px 10px;
+
 }
