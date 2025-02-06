@@ -36,10 +36,41 @@ h1,h2,p{
     font: 70;
 }
     */
-.my-div{
+/*.my-div{
     height: 100px;
     width: 100px;
     background-color: red;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 50px 10px 50px 10px;
 
+}*/
+.my-div{
+    display: run-in;
+
+}
+p{
+    font-size: 20px;
+    font-weight: 900;
+    font-variant: small-caps;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 100%;
+    margin-left: 80px;
+}
+
+/*img{
+    float: inherit;
+}*/
+.submitbtn{
+    background-color: red !important;
+    border-radius: 6px;
+    color: white;
+    padding: 10px;
+}
+.submitbtn{
+    background-color: black;
+    border-radius: 6px;
+    color: white;
+    padding: 10px;
+}
+.submitbtn:hover{
+    background-color: green !important;
 }
