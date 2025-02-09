@@ -4,11 +4,8 @@
     </head>
     
     <body>
-        
 
-
-
-
+        <!--This is how to use variables-->
         <script>
             var A={
 
@@ -16,15 +13,54 @@
                 Age:30,
                 City:"Dhaka"
             }
-
-            document.write("A")
-            //document.write("Hello")
-            document.write("Hello JavaScript")
-            document.write("Hello Nega")
+            //this is how to use array
+            var B=['Dhaka','rangpur', 'rajshahi']
+            document.write(A.Age)
+            document.write(B)
+            //operations
             var x = 10
             var X = 20
             var z = x + X
             document.write(z)
+        </script>
+        <br>
+        <script>
+            var age=30;  
+            var city="Dhaka"
+            if(age>18 && city=="Dhaka"){
+                document.write('Your are eligible for voting')
+            }
+          
+        </script>
+        <br>
+
+        <!--This is "if else ladder"-->
+        <script>
+            var Marks=14;
+            if(Marks>=80 && Marks<=100){
+                document.write("A+")
+            }
+            else if(Marks>=70 && Marks<=79){
+                document.write("A")
+            }
+            else if(Marks>=60 && Marks<=69){
+                document.write("B")
+            }
+            else if(Marks>=50 && Marks<=59){
+                document.write("C")
+            }
+            else if(Marks>=40 && Marks<=49){
+                document.write("D")
+            }
+            else if(Marks>=33 && Marks<=39){
+                document.write("D")
+            }
+            else{
+                document.write("F")
+            } 
+        </script>
+        <br>
+        <script>
         </script>
     </body>
 </html>
