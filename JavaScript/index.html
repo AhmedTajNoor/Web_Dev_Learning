@@ -60,7 +60,50 @@
             } 
         </script>
         <br>
+
+        <!--Switch case-->
         <script>
+            var Marks= 100
+            switch(true){
+                case (Marks<=100 && Marks>=80 ):
+                    document.write('A+');
+                break;
+
+                case (Marks<=79 && Marks>=70 ):
+                    document.write('A');
+                break;
+
+                case (Marks<=69 && Marks>=60 ):
+                    document.write('B');
+                break;
+
+                case (Marks<=59 && Marks>=50 ):
+                    document.write('C');
+                break;
+
+                case (Marks<=49 && Marks>=40 ):
+                    document.write('D');
+                break;
+
+                default:
+                    document.write('F')
+            }
+
+        </script>
+        <br>
+        <!--Loop-->
+        <script>
+            var i;
+            for(i=0;i<10;i= i+1){
+                if(i==5 || i==8){
+                    continue;
+                }
+                if(i==3){
+                    break;
+                }
+                document.write(i+"<button>Submit</button> <br>");
+            }
+            
         </script>
     </body>
 </html>
