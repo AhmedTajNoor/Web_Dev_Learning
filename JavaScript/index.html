@@ -123,7 +123,7 @@
         <script>
            var i=0;
            do{
-               document.write(i+"<button>While loop</button> <br>");
+               document.write(i+"<button>Do While loop</button> <br>");
                i=i+1;
            }
            while(i<5)
@@ -137,5 +137,57 @@
             n2=3;
         }
        </script>
+
+       <!-- array -->
+        <Script>
+            var catagoty=["Food","Bavarage","Beauty","Drinks"]
+            var i;
+            for(i=0;i<catagoty.length;i=i+1){
+                document.write(catagoty[i]+"<br>")
+            }
+
+        </Script>
+        <Script>
+            var catagoty=["Food","Bavarage","Beauty","Drinks"]
+            for(var item in catagoty){
+
+                document.write(catagoty[item]+"<br>")
+            }
+
+        </Script>
+        <script>
+
+            var Person={
+                name:"Jack",
+                age:39,
+                city:"London",
+                Height:"6 Feet"
+            }
+
+            for(var item in Person){
+                document.write(Person[item]+"<br>")
+            }
+        </script>
+        <br>
+        <!-- Filter array -->
+        <script>
+            var numArray=[30,20,50,80,90,70];
+            var result= numArray.filter(function(item){
+                
+                return item>50
+            });
+            
+            document.write(result);
+        </script>
+        <br>
+        <script>
+            var numArray=[30,20,50,80,90,70];
+            var result= numArray.findIndex(function(value){
+                
+                return value>30
+            });
+            
+            document.write(result);
+        </script>
     </body>
 </html>
