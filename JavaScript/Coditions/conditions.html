@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- if condition -->
+    <script>
+        var age=30;  
+        var city="Dhaka"
+        if(age>18 && city=="Dhaka"){
+            document.write('Your are eligible for voting')
+        }
+      
+    </script>
+    <br>
+
+    <!--This is "if else ladder"-->
+    <script>
+        var Marks=14;
+        if(Marks>=80 && Marks<=100){
+            document.write("A+")
+        }
+        else if(Marks>=70 && Marks<=79){
+            document.write("A")
+        }
+        else if(Marks>=60 && Marks<=69){
+            document.write("B")
+        }
+        else if(Marks>=50 && Marks<=59){
+            document.write("C")
+        }
+        else if(Marks>=40 && Marks<=49){
+            document.write("D")
+        }
+        else if(Marks>=33 && Marks<=39){
+            document.write("D")
+        }
+        else{
+            document.write("F")
+        } 
+    </script>
+    <br>
+
+    <!--Switch case-->
+    <script>
+        var Marks= 100
+        switch(true){
+            case (Marks<=100 && Marks>=80 ):
+                document.write('A+');
+            break;
+
+            case (Marks<=79 && Marks>=70 ):
+                document.write('A');
+            break;
+
+            case (Marks<=69 && Marks>=60 ):
+                document.write('B');
+            break;
+
+            case (Marks<=59 && Marks>=50 ):
+                document.write('C');
+            break;
+
+            case (Marks<=49 && Marks>=40 ):
+                document.write('D');
+            break;
+
+            default:
+                document.write('F')
+        }
+
+    </script>
+    <br>
+</body>
+</html>

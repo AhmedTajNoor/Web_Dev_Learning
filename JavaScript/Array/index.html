@@ -1,0 +1,148 @@
+<html>
+    <head>
+        <title>JavaScript Practice</title>
+    </head>
+    
+    <body>
+
+       <!-- array -->
+        <Script>
+            var catagoty=["Food","Bavarage","Beauty","Drinks"]
+            var i;
+            for(i=0;i<catagoty.length;i=i+1){
+                document.write(catagoty[i]+"<br>")
+            }
+
+        </Script>
+        <Script>
+            var catagoty=["Food","Bavarage","Beauty","Drinks"]
+            for(var item in catagoty){
+
+                document.write(catagoty[item]+"<br>")
+            }
+
+        </Script>
+        <script>
+
+            var Person={
+                name:"Jack",
+                age:39,
+                city:"London",
+                Height:"6 Feet"
+            }
+
+            for(var item in Person){
+                document.write(Person[item]+"<br>")
+            }
+        </script>
+        <br>
+        <!-- Filter array -->
+        <script>
+            var numArray=[30,20,50,80,90,70];
+            var result= numArray.filter(function(item){
+                
+                return item>50
+            });
+            
+            document.write(result);
+        </script>
+        <br>
+        <script>
+            var numArray=[30,20,50,80,90,70];
+            var result= numArray.findIndex(function(value){
+                
+                return value>30
+            });
+            
+            document.write(result);
+        </script>
+        <br>
+        <script>
+            var numArray=[30,20,50,80,90,70];
+            
+            numArray.forEach(function(item){
+                document.write(item + "<br>")
+            })
+        </script>
+        <br>
+        <script>
+            var numArray=[30,20,50,80,90,70];
+            
+            var result= numArray.includes(80)
+            document.write(result);
+        </script>
+        <br>
+         <script>
+            var numArray=[30,20,50,80,90,70];
+            
+            var result= numArray.indexOf(100)
+            document.write(result);
+        </script>
+        <br>
+        <!-- reverse -->
+        <script>
+           var numArray=[30,20,50,80,90,70];
+           
+           var result= numArray.reverse()
+           document.write(result);
+       </script>
+        <br>
+        <!-- push -->
+        <script>
+           var numArray=[30,20,50,80,90,70];
+           
+           numArray.push(100,101);
+           document.write(numArray);
+       </script>
+       <br>
+        <!-- pop -->
+        <script>
+            var numArray=[30,20,50,80,90,70];
+            
+            numArray.pop();
+            document.write(numArray);
+        </script>
+        <br>
+       <!-- pop -->
+        <script>
+            var numArray=[30,20,50,80,90,70];
+            
+            numArray.pop();
+            document.write(numArray);
+        </script>
+        <br>
+        <!-- slice -->
+        <script>
+            var numArray=[30,20,50,80,90,70];
+            
+            var result = numArray.slice(0,4);
+            document.write(result);
+        </script>
+        <br>
+        <!-- slice -->
+        <script>
+            var numArray=[30,20,50,80,90,70];
+            
+            var result = numArray.slice(0,4);
+            document.write(result);
+        </script>
+        <br>
+        <!-- splice -->
+        <script>
+            var numArray=[30,20,50,80,90,70];
+            
+            // var result = numArray.splice(index,removeCount,item);
+            numArray.splice(2,2,70,20,30);
+            document.write(numArray);
+        </script>
+        <br>
+
+        <script>
+            var country= "Bangladesh"
+            
+            document.write(
+                country.charAt(5)
+            )
+        </script>
+    </body>
+</html>
